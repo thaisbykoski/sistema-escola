@@ -36,7 +36,7 @@
             </tbody>
         </table>
 
-        <a class="btn btn-primary" href="{{ route('employees.create') }}" style="font-weight: bold; font-size:2rem; line-height: 1.2; padding-top: 2px;">+</a>
+        <a class="btn btn-primary" href="{{ route('employees.create') }}" style="font-weight: bold; font-size:1.5rem; line-height: 1.2; padding-top: 2px;">+</a>
 
     </div>
 
