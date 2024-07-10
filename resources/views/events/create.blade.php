@@ -17,19 +17,19 @@
 
     <form action="{{ route('events.store') }}" method="POST">
         @csrf
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="title">Título</label>
             <input type="text" name="title" class="form-control" id="title" value="{{ old('title') }}">
         </div>
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="description">Descrição</label>
             <input type="text" name="description" class="form-control" id="description" value="{{ old('description') }}">
         </div>
-        <div class="form-group">
+        <div class="form-group mb-4">
             <label for="date">Data</label>
             <input type="date" name="date" class="form-control" id="date" value="{{ old('date') }}">
         </div>
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="submit" class="btn btn-primary mb-5">Cadastrar</button>
     </form>
 </div>
 @endsection
