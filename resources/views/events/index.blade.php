@@ -31,7 +31,7 @@
         </tbody>
     </table>
 
-    <a class="btn btn-primary" href="{{ route('events.create') }}" style="font-weight: bold; font-size:1.5rem; line-height: 1.2; padding-top: 2px;">+</a>
+    <a class="btn btn-primary" href="{{ route('events.create') }}" style="font-weight: bold; font-size:1.5rem; line-height: 1.25; padding-top: 4px;">+</a>
 
     <!-- Delete Confirmation Modal -->
     <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
